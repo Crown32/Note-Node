@@ -2,9 +2,11 @@
 This project was developed in node.js v12.16.1.  
 
 #### Inicialização  
-Para o setup do app é nescessário a instalação de duas libs, sendo elas o express handlebars e o Body-Parser, outras libs usadas são nativas.  
+Para o setup do app é nescessário a instalação de três libs, sendo elas o express, express-handlebars e o Body-Parser, outras libs usadas são nativas.  
 
 **Instalação:**  
+
+`npm install --save express`
 
 `mpm install --save express-handlebars`  
 
