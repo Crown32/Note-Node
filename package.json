@@ -1,0 +1,21 @@
+{
+  "name": "note_node",
+  "version": "1.0.0",
+  "description": "Notepad developed in node.js",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Crown32/Note-Node"
+  },
+  "author": "Lucas Eleutério",
+  "license": "ISC"
+}
