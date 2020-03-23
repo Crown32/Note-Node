@@ -1,0 +1,17 @@
+<div id="root" class="home">
+    <div class="title">
+        <u><h1>NOTE-NODE</h1></u>
+        <p><a href="/adicionar"><button class="home-btn-add">Adicionar nota</button></a></p>
+    </div>
+    <div class="container">
+        {{#each notas}}
+            <div class="note">
+                <h3>{{titulo}}</h3>
+                <p>{{conteudo}}</p>
+                <a href="/deletar/{{id}}"><button class="home-btn-delet">Deletar nota</button></a>
+                <a href="/editar/{{id}}"><button class="home-btn-edit">Editar nota</button></a>
+            </div>
+        {{/each}}
+    </div>    
+
+</div>

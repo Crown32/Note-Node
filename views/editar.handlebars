@@ -1,0 +1,11 @@
+<form class="edit" action="/edit" method="POST">
+    <div class="title">
+        <u><h4>Titulo</h4></u>
+        <input class="edit-txt-titulo" type="text" name="titulo" value="{{nota.titulo}}">
+        <u><h4>Conteudo</h4></u>
+        <p><textarea class="edit-txt-conteudo" name="conteudo" >{{nota.conteudo}}</textarea></p>
+        <p><button class="edit-btn-editar" type="submit">Fazer alteração</button></p>
+    </div>
+    <p style="text-align: left;"><input type="text" name="id" value="{{nota.id}}" style="color:  rgb(19, 17, 17);background:none; border:none;" readonly="true"></p>
+</form>
+

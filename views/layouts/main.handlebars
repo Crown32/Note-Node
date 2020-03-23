@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+    <style>
+                * {
+        box-sizing: border-box;
+        }
+        
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-family: sans-serif;
+            line-height: 1.6;
+            color:black;
+            background-color:  rgb(19, 17, 17);
+        }
+        /*Div mestra da home*/
+        #root {
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+        /*titulos*/
+        .title{
+            text-align: center;
+            color: lightgray;
+        }
+
+
+        h3 {
+            text-align: center;
+            padding: 1.5rem 2.5rem;
+            background-color:white;
+            margin: 0 0 1.5rem 0;
+            font-size: 1.6rem;
+            color:black;
+        }
+        
+        
+        p {
+            padding: 0 1.5rem 2.5rem;
+            margin: 0;
+        }
+        
+        /*Div de todas as notass*/
+        .container {
+            display:flex;
+            flex-wrap: wrap;
+        }
+        
+        /*Div de cada nota*/
+        .note {
+            margin: 2rem;
+            background: white;
+            box-shadow: 2px 4px 25px black;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all  .2s linear;
+            text-align: center;
+            text-overflow: ellipsis;
+        }
+        
+        .note:hover {
+            box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+            transform: translate3D(0, -2px, 0);
+        }
+        
+        @media screen and (min-width: 600px) {
+            .note {
+            flex: 1 1 calc(50% - 2rem);
+            }
+        }
+        
+        @media screen and (min-width: 900px) {
+            .note {
+            flex: 1 1 calc(33% - 2rem);
+            }
+        }
+        
+        /*Página sem notas*/
+        .homeNull-btn-adicionar{
+            width: 200px;
+            height: 45px;
+            border-radius: 40px; 
+            background-color:greenyellow; 
+            border:none;
+            transition: 0.5s;
+        }
+        .homeNull-btn-adicionar:hover{
+            background-color: green;
+        }
+        /*página de edição*/
+        .edit-btn-editar{
+            border-radius: 40px; 
+            background-color: greenyellow; 
+            border:none;
+            transition: 0.5s;
+        }
+        .edit-btn-editar:hover{
+            background-color: green;
+        }
+        .edit-txt-conteudo{
+            color:black; 
+            height: 150px; 
+            width: 400px; 
+            border-radius: 20px; 
+            text-align: center; 
+            border-color: lightskyblue;
+        }
+        .edit-txt-titulo{
+            color:black;
+            border-radius: 20px; 
+            text-align: center; 
+            border-color: lightskyblue;
+        }     
+        /*Página de criação*/
+        .add-btn-adicionar{
+            border-radius: 40px; 
+            background-color: greenyellow; 
+            border:none;
+            transition: 0.5s;
+        } 
+        .add-btn-adicionar:hover{
+            background-color: green;
+        }  
+        .add-txt-conteudo{
+            color:black; 
+            height: 150px; 
+            width: 400px; 
+            border-radius: 20px; 
+            text-align: center;
+            border-color: lightskyblue;
+        }
+        .add-txt-titulo{
+            color:black;
+            border-radius: 20px;
+            text-align: center;
+            border-color: lightskyblue;
+        }
+        /*Página inicial*/
+        
+        .home-btn-edit{
+            border-radius: 40px; 
+            background-color:yellow;
+            border:none; 
+            width:97.23px; 
+            height: 17px;
+            transition: all 0.5s;
+        }
+        .home-btn-edit:hover{
+            background-color:rgb(230, 230, 13);
+        }
+        .home-btn-delet{
+            border-radius: 40px;
+            background-color: red;
+            border:none;
+            width:97.23px;
+            height: 17px;
+            transition: all 0.5s;
+        }
+        .home-btn-delet:hover{
+            background-color: crimson;
+        }
+        .home-btn-add{
+            border: none;
+            border-radius: 40px;
+            transition: all 0.5s;
+            background: none;
+            width: 200px;
+            height: 45px;
+            background-color:greenyellow;
+        }
+        .home-btn-add:hover{
+            background-color: green;
+        }
+
+    </style>
+
+
+
+
+    <link rel="sortcut icon" href="https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9b/Note_Block.png" type="image/png" />
+    <meta charset="UTF-8">
+    <title>Noteblock Node.js</title>
+</head>
+<body>
+    {{{body}}}
+</body>
+</html>
